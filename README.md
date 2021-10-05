@@ -1,3 +1,9 @@
+# This is a temporary fork that exists to unlock HMR with webpack 5
+After switching to webpack 5 we hit a weird case of HMR (hot reloading module) not being working. There is a possible solution described [here](https://github.com/webpack-contrib/webpack-hot-middleware/issues/390) but yet not been applied. 
+
+We forked the solution to make sure we keep up with security updates. When official webpack-hot-middleware provides a fix this repo can be dropped
+-----
+
 # Webpack Hot Middleware
 
 Webpack hot reloading using only [webpack-dev-middleware](https://webpack.js.org/guides/development/#webpack-dev-middleware). This allows you to add hot reloading into an existing server without [webpack-dev-server](https://webpack.js.org/configuration/dev-server/).
